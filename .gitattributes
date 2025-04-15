@@ -1,2 +1,6 @@
 # Auto detect text files and perform LF normalization
 * text=auto
+
+# Do not convert EOL on TeX-related files (for vim reasons)
+* .aux text eol=LF
+* .log text eol=LF
